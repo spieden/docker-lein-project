@@ -1,5 +1,7 @@
 2
 i
-cd /proj/
+if [ ! -f project.clj ]; then
+  cd /proj/
+fi
 .
 w
