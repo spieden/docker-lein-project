@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:9
 
 RUN apt-get clean && apt-get update && apt-get install ed
 
